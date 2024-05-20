@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+        <record id="lovestory_view_order_form" model="ir.ui.view">
+            <field name="name">lovestory.sale.order.form</field>
+            <field name="model">sale.order</field>
+            <field name="inherit_id" ref="sale.view_order_form"/>
+            <field name="arch" type="xml">
+                <field name="partner_id" position="after">
+                    <field name="fecha_evento"/>
+                    <field name="monto_deposito"/>
+                    <field name="fecha_ajuste_vestido1"/>
+                    <field name="fecha_ajuste_vestido2"/>
+                    <field name="fecha_ajuste_vestido3"/>
+                    <field name="fecha_entrega"/>
+                    <field name="fecha_devolucion"/>
+                    <field name="nombre_vestido"/>
+                </field>
+                <field name="payment_term_id" position="after">
+                    <field name="primer_pago"/>
+                    <field name="segundo_pago"/>
+                </field>
+            </field>
+        </record>
+
+</odoo>

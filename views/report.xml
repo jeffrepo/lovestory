@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <report
+            id="lovestory_contrato_alquiler"
+            string="Contrato alquiler"
+            model="sale.order"
+            report_type="qweb-pdf"
+            file="lovestory.reporte_contrato_alquiler"
+            name="lovestory.reporte_contrato_alquiler"
+        />
+
+    </data>
+</odoo>
