@@ -10,5 +10,14 @@
             name="lovestory.reporte_contrato_alquiler"
         />
 
+        <report
+            id="lovestory_contrato_alquiler_sucursal2"
+            string="Contrato alquiler sucursal 2"
+            model="sale.order"
+            report_type="qweb-pdf"
+            file="lovestory.reporte_contrato_alquiler_sucursal2"
+            name="lovestory.reporte_contrato_alquiler_sucursal2"
+        />
+
     </data>
 </odoo>
