@@ -16,6 +16,7 @@
         'views/sale_views.xml',
         'views/report.xml',
         'views/reporte_contrato_alquiler.xml',
+        'views/reporte_contrato_alquiler_sucursal2.xml',
     ],
     'installable': True,
     'auto_install': False,
