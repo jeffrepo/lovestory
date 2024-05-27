@@ -15,10 +15,10 @@
                                 </td>
                                 <td style="text-align:center">
                                     HOJA DE CONTRATO POR ALQUILER DE VESTIDO<br/>
-                                    <span t-field="o.company_id.street"/>
-                                    <span t-field="o.company_id.street2"/>
-                                    <span t-field="o.company_id.city"/><br/>
-                                    TEL: <span t-field="o.company_id.phone"/>
+                                    <span>DIAGONAL 6,</span>
+                                    <span>12-42 Z10 EDIFICIO DESIGN CENTER LOCAL 227B Y 228 NIVEL 2</span>
+                                    <span>GUATEMALA</span><br/>
+                                    TEL: <span>2261-9981</span>
                                 </td>
                             </tr>
                         </table>
@@ -71,7 +71,7 @@
                                     <span t-field="o.date_order"/>
                                 </td>
                                 <td style="background-color:#f5ab99;border: 1px solid black">
-                                    <b>Ajustes del vestido 1</b>
+                                    <b>Instrucciones para toma de medidas</b>
                                 </td>
                                 <td style="text-align:center;border: 1px solid black">
                                     <span t-field="o.fecha_ajuste_vestido1"/>
@@ -85,7 +85,7 @@
                                     <span t-field="o.fecha_evento"/>
                                 </td>
                                 <td style="background-color:#f5ab99;border: 1px solid black">
-                                    <b>Ajustes del vestido 2</b>
+                                    <b>Fecha de tallaje y modista</b>
                                 </td>
                                 <td style="text-align:center;border: 1px solid black">
                                     <span t-field="o.fecha_ajuste_vestido2"/>
@@ -99,7 +99,7 @@
                                     <span t-field="o.note"/>
                                 </td>
                                 <td style="background-color:#f5ab99;border: 1px solid black">
-                                    <b>Ajustes del vestido 3</b>
+                                    <b>Número de recibo de caja</b>
                                 </td>
                                 <td style="text-align:center;border: 1px solid black">
                                     <span t-field="o.fecha_ajuste_vestido3"/>
@@ -127,7 +127,7 @@
                                     <b>ASESORA QUE ATENDIÓ</b>
                                 </td>
                                 <td style="text-align:center;border: 1px solid black">
-                                    <span t-field="o.user_id.name"/>
+                                   
                                 </td>
                                 <td style="background-color:#f5ab99;border: 1px solid black">
                                     <b>DESCRIPCIÓN  DEL VESTIDO</b>
@@ -238,12 +238,12 @@
                         <br/>
                         <br/>
                         <table style="margin: 0px auto;border: 1px solid black;width:100%">
-                            <tr style="font-size:14px">
+                            <tr style="font-size:10px">
                                 <td colspan="3" style="border: 1px solid black;background-color:#f5ab99; text-align:center">
                                     <b>POLITICAS DE ALQUILER- LOVE STORY OCCASIONS VESTIDOS DE GUATEMALA</b>
                                 </td>
                             </tr>
-                            <tr style="font-size:14px">
+                            <tr style="font-size:10px">
                                 <td colspan="3" style="border: 1px solid black;">
                                     <b>
                                         ESTIMADA CLIENTE:<br/>
@@ -252,40 +252,40 @@
                                     </b>
                                 </td>
                             </tr>
-                            <tr style="font-size:14px">
+                            <tr style="font-size:10px">
                                 <td colspan="3" style="border: 1px solid black;background-color:#f5ab99">
                                     <b>CONDICIONES Y TÉRMINOS DE ALQUILER DE VESTIDOS</b>
                                 </td>
                             </tr>
-                            <tr style="font-size:14px">
+                            <tr style="font-size:10px">
                                 <td colspan="3" style="border: 1px solid black;background-color:#f2ebea">
                                     <b>
                                         1.- NO SE REALIZARÁ LA DEVOLUCIÓN DE RESERVAS POR COMPRA Y/O ALQUILER, UNICAMENTE CAMBIO POR OTRO VESTIDO EN RENTA DISPONIBLE, TOMAR EN CUENTA QUE TU RESERVA NO SE DEVOLVERÁ EN EFECTIVO EN CASO YA NO QUIERES ALQUILAR O COMPRAR
                                     </b>
                                 </td>
                             </tr>
-                            <tr style="font-size:14px">
+                            <tr style="font-size:10px">
                                 <td colspan="3" style="border: 1px solid black;background-color:#f2ebea">
                                     <b>
                                         2.- EL VESTIDO EN TU VISITA ORIGINAL PUEDE CAMBIARSE DESPUÉS DE FIRMADO EL CONTRATO SI DESEAS, SIN EMBARGO TIENE UN RECARGO DE Q700 EL VESTIDO DE 15 AÑOS Y Q300 EL VESTIDO DE FIESTA, ADICIONAL A LA DIFERENCIA DE PRECIO DEL NUEVO VESTIDO (SI EXISTIERA): EL CAMBIO ESTÁ SUJETO A DISPONIBILIDAD Y DEBERÁ REALIZAR EL PAGO DE Q700 EL MISMO DÍA DEL CAMBIO PARA QUE SEA EFECTIVO 
                                     </b>
                                 </td>
                             </tr>
-                            <tr style="font-size:14px">
+                            <tr style="font-size:10px">
                                 <td colspan="3" style="border: 1px solid black;background-color:#f2ebea">
                                     <b>
                                         3.- EL VESTIDO EN TU VISITA ORIGINAL PUEDE CAMBIARSE DESPUÉS DE FIRMADO EL CONTRATO SI DESEAS, SIN EMBARGO TIENE UN RECARGO DE Q700 EL VESTIDO DE 15 AÑOS Y Q300 EL VESTIDO DE FIESTA, ADICIONAL A LA DIFERENCIA DE PRECIO DEL NUEVO VESTIDO (SI EXISTIERA): EL CAMBIO ESTÁ SUJETO A DISPONIBILIDAD Y DEBERÁ REALIZAR EL PAGO DE Q700 EL MISMO DÍA DEL CAMBIO PARA QUE SEA EFECTIVO 
                                     </b>
                                 </td>
                             </tr>
-                            <tr style="font-size:14px">
+                            <tr style="font-size:10px">
                                 <td colspan="3" style="border: 1px solid black;">
 
                                         4.- LA ENTREGA DEL VESTIDO ES PERSONAL YA QUE HAY QUE TALLARSE EL MISMO, DE LO CONTRARIO NO PODEMOS REALIZAR LA ENTREGA,
 
                                 </td>
                             </tr>
-                            <tr style="font-size:14px">
+                            <tr style="font-size:10px">
                                 <td colspan="3" style="border: 1px solid black;">
 
                                         5.- DEBES DE TOMAR EN CUENTA QUE EL VESTIDO ADQUIRIDO PUEDE HABER SIDO USADO ANTES O PODRÁ USARSE DESPUÉS DE RENTADO.
@@ -293,7 +293,7 @@
 
                                 </td>
                             </tr>
-                            <tr style="font-size:14px">
+                            <tr style="font-size:10px">
                                 <td colspan="3" style="border: 1px solid black;background-color:#f2ebea">
                                     <b>
                                         6.- DEBERÁS CUMPLIR PUNTUALMENTE CON TU SEGUNDO PAGO PARA NO PERDER LA RESERVA, LA FECHA LÍMITE ES EL DIA DE TOMAS DE MEDIDA.
@@ -301,7 +301,7 @@
                                     </b>
                                 </td>
                             </tr>
-                            <tr style="font-size:14px">
+                            <tr style="font-size:10px">
                                 <td colspan="3" style="border: 1px solid black;">
 
                                         7.- EN CASO UNA O VARIAS PRENDAS SUFRIERAN DAÑOS COMO: MANCHA GRAVE, ROTURA, RASGADURA, DESGASTADO O VINIERA INCOMPLETAS, ME COMPROMETO  A PAGAR EL VALOR TOTAL DE LA O LAS PRENDAS DAÑADAS A LOVE STORY OCCASIONS.
@@ -309,7 +309,7 @@
 
                                 </td>
                             </tr>
-                            <tr style="font-size:14px">
+                            <tr style="font-size:10px">
                                 <td colspan="3" style="border: 1px solid black;">
 
                                         8.- ME COMPROMETO A ENTREGAR EL PRIMER LUNES (ANTES DE LAS 13:00 HRS) DESPUÉS DEL EVENTO, VESTIDO Y FUSTAN Y/O DEMÁS PRENDAS ALQUILADAS, DE LO CONTRARIO, SE COBRARÁ Q150 POR CADA DÍA ADICIONAL
@@ -317,7 +317,7 @@
 
                                 </td>
                             </tr>
-                            <tr style="font-size:14px">
+                            <tr style="font-size:10px">
                                 <td colspan="3" style="border: 1px solid black;">
 
                                         9.- EL ALQUILER DE LOS VESTIDOS INCLUYE AJUSTES MENORES DE COSTURA, EJEMPLO: RUEDO, BOTÓN DE COLA, REDUCIR MANGAS, REDUCIR LATERALES. SI DESEAS OTRO AJUSTE ADICIONAL A LOS MENCIONADOS, DEBERÁS PAGARLO ADICIONAL.
@@ -325,7 +325,7 @@
 
                                 </td>
                             </tr>
-                            <tr style="font-size:14px">
+                            <tr style="font-size:10px">
                                 <td colspan="3" style="border: 1px solid black;background-color:#f2ebea">
                                     <b>
                                         10.- EL VESTIDO DE 15 AÑOS EN RENTA INCLUYE: FUSTAN, AJUSTES DE COSTURA, LAVANDERÍA, PLANCHADO Y TIARA DE REGALO, TOMAR EN CUENTA QUE LOS ACCESORIOS ESTÁN SUJETOS A DISPONIBILIDAD Y PODRÍAN CAMBIAR EN CASO DE CAMBIO DE FECHA O DAÑO PERMANENTE, SE INFORMARÁ EN TALLAJE.
@@ -333,7 +333,7 @@
                                     </b>
                                 </td>
                             </tr>
-                            <tr style="font-size:14px">
+                            <tr style="font-size:10px">
                                 <td colspan="3" style="border: 1px solid black;">
 
                                         11.- TOMA EN CUENTA QUE NO ES POSIBLE REALIZAR ALTERACIONES DE COSTURA QUE MODIFIQUEN DEFINITIVAMENTE EL VESTIDO (EJM: CORTAR EL RUEDO, O MANGAS, ELIMINAR COLA, QUITAR APLICACIONES DE ENCAJE, ETC.) POR LO QUE DEBERÁS ELEGIR UN MODELO QUE CUMPLA CON TUS REQUERIMIENTOS EN EL ESTADO ACTUAL.
@@ -341,7 +341,7 @@
 
                                 </td>
                             </tr>
-                            <tr style="font-size:14px">
+                            <tr style="font-size:10px">
                                 <td colspan="3" style="border: 1px solid black;">
 
                                         12.- LOS TALLAJES PARA TOMA DE MEDIDAS SE REALIZARÁ EXCLUSIVAMENTE DE LUNES A VIERNES  EN EL HORARIO ADECUADO POR AMBAS PARTES. RECUERDA SIEMPRE AGENDAR CITA ANTES DE TU LLEGADA PARA QUE EL VESTIDO ENTADO SE ENCUENTRE DISPONIBLE EN LA TIENDA. DEBERÁS  TRAER LOS ZAPATOS QUE USARÁS EN TU EVENTO (YA QUE NO PODRÁS CAMBIARLOS POSTERIORMENTE) PARA TOMA CORRECTAMENTE TU MEDIDA DE RUEDO, SI NO TE PRESENTAS CON DICHO CALZADO NO PODREMOS TOMAR MEDIDAS Y DEBERAS AGENDAR TU CITA DE NUEVO.
@@ -349,7 +349,7 @@
 
                                 </td>
                             </tr>
-                            <tr style="font-size:14px">
+                            <tr style="font-size:10px">
                                 <td colspan="3" style="border: 1px solid black;">
 
                                         13.- DERIVADO DE LA SITUACIÓN POR LA PANDEMIA COVID-19 EN CASO TU EVENTO SE MODIFIQUE DE FECHA, TU CONTRATO PUEDE QUEDAR ABIERTO HASTA QUE NOS INDIQUES LA PRÓXIMA FECHA, RECUERDA QUE SI EL EVENTO SE CANCELA, NO DEVOLVEMOS EL DINERO ADELANTADO, ÚNICAMENTE PODRÁS CANJEARLO POR OTRO VESTIDO EN RENTA.
@@ -357,7 +357,7 @@
 
                                 </td>
                             </tr>
-                            <tr style="font-size:14px">
+                            <tr style="font-size:10px">
                                 <td colspan="3" style="border: 1px solid black;">
 
                                         14.- EL PRESENTE CONTRATO DE SERVICIOS TIENE VALIDEZ POR 12 MESES.
@@ -365,7 +365,7 @@
 
                                 </td>
                             </tr>
-                            <tr style="font-size:14px">
+                            <tr style="font-size:10px">
                                 <td colspan="3" style="border: 1px solid black;">
 
                                         15.- LOS ARTÍCULOS ADQUIRIDOS EN VENTA NUEVIS,  EN LIQUIDACIÓN U OFERTA NO TIENEN DEVOLUCIÓN NI CAMBIO.
@@ -373,7 +373,7 @@
 
                                 </td>
                             </tr>
-                            <tr style="font-size:14px">
+                            <tr style="font-size:10px">
                                 <td colspan="3" style="border: 1px solid black;">
                                     <b>
                                         YO  _________________________________ E LEÍDO A DETALLE EL SIGUIENTE CONTRATO DE VESTIDO Y ME COMPROMETO A CUMPLIR CON LAS ESPECIFICACIONES EN EL INDICADAS 

@@ -127,7 +127,7 @@
                                     <b>Asesor que atendió</b>
                                 </td>
                                 <td style="text-align:center;border: 1px solid black">
-                                    <span t-field="o.user_id.name"/>
+                                    
                                 </td>
                                 <td style="background-color:#f5ab99;border: 1px solid black">
                                     <b>Nombre del vestido</b>
@@ -347,6 +347,56 @@
                                         por lo que deberás elegir un modelo que cumpla con tus requerimientos en el estado actual.
 
                                     </b>
+                                </td>
+                            </tr>
+
+                            <tr style="font-size:14px">
+                                <td colspan="3" style="border: 1px solid black;">
+
+                                        11.- toma en cuenta que no es posible realizar alteraciones de costura que modifiquen definitivamente el vestido (ejm: cortar el ruedo, o mangas, eliminar cola, quitar aplicaciones de encaje, etc.) por lo que deberás elegir un modelo que cumpla con tus requerimientos en el estado actual.
+
+
+
+                                </td>
+                            </tr>
+
+                            <tr style="font-size:14px">
+                                <td colspan="3" style="border: 1px solid black;">
+
+                                        12.- los tallajes para toma de medidas se realizará exclusivamente de lunes a viernes en el horario adecuado por ambas partes. 
+                                        recuerda siempre agendar cita antes de tu llegada para que el vestido entado se encuentre disponible en la tienda. 
+                                        deberás traer los zapatos que usarás en tu evento (ya que no podrás cambiarlos posteriormente) para toma correctamente tu medida de ruedo, 
+                                        si no te presentas con dicho calzado no podremos tomar medidas y deberás agendar tu cita de nuevo.
+
+                                </td>
+                            </tr>
+
+                            <tr style="font-size:14px">
+                                <td colspan="3" style="border: 1px solid black;">
+
+                                        13.- derivado de la situación por la pandemia covid-19 en caso tu evento se modifique de fecha, 
+                                        tu contrato puede quedar abierto hasta que nos indiques la próxima fecha, recuerda que si el evento se cancela, 
+                                        no devolvemos el dinero adelantado, únicamente podrás canjearlo por otro vestido en renta.
+
+
+                                </td>
+                            </tr>
+
+                            <tr style="font-size:14px">
+                                <td colspan="3" style="border: 1px solid black;">
+
+                                        14.- el presente contrato de servicios tiene validez por 12 meses.
+
+
+                                </td>
+                            </tr>
+
+                            <tr style="font-size:14px">
+                                <td colspan="3" style="border: 1px solid black;">
+
+                                        15.- los artículos adquiridos en venta nuevos, en liquidación u oferta no tienen devolución ni cambio..
+
+
                                 </td>
                             </tr>
                             <tr style="font-size:14px">
