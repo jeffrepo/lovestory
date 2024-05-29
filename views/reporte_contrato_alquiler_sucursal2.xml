@@ -14,11 +14,11 @@
                                     <img src="/web/binary/company_logo" align="center" style="width:65%"/>
                                 </td>
                                 <td style="text-align:center">
-                                    HOJA DE CONTRATO POR ALQUILER DE VESTIDO<br/>
-                                    <span>DIAGONAL 6,</span>
-                                    <span>12-42 Z10 EDIFICIO DESIGN CENTER LOCAL 227B Y 228 NIVEL 2</span>
-                                    <span>GUATEMALA</span><br/>
-                                    TEL: <span>2261-9981</span>
+                                    hoja de contrato por alquiler de vestido<br/>
+                                    <span>diagonal 6,</span>
+                                    <span>12-42 z10 edificio design center local 227b y 228 nivel 2</span>
+                                    <span>guatemala</span><br/>
+                                    tel: <span>2261-9981</span>
                                 </td>
                             </tr>
                         </table>
@@ -30,12 +30,12 @@
                         <table style="margin: 0px auto;border: 1px solid black;width:100%;height:20.5cm">
                             <tr style="background-color:#f5ab99">
                                 <td colspan="4" style="text-align:center;vertical-align:middle;height: 2cm;border: 1px solid black">
-                                    <h2>CONTRATO DE ALQUILER O COMPRA DE VESTIDO</h2>
+                                    <h2>contrato de alquiler o compra de vestido</h2>
                                 </td>
                             </tr>
                             <tr>
                                 <td style="background-color:#f5ab99;border: 1px solid black">
-                                    <b>NOMBRE COMPLETO</b>
+                                    <b>nombre completo</b>
                                 </td>
                                 <td colspan="3" style="text-align:center;border: 1px solid black">
                                     <span t-field="o.partner_id.name"/>
@@ -43,7 +43,7 @@
                             </tr>
                             <tr>
                                 <td style="background-color:#f5ab99;border: 1px solid black">
-                                    <b>DIRECCIÓN DEL CLIENTE</b>
+                                    <b>dirección del cliente</b>
                                 </td>
                                 <td colspan="3" style="text-align:center;border: 1px solid black">
                                     <span t-field="o.partner_id.street"/>,<span t-field="o.partner_id.street2"/>,<span t-field="o.partner_id.city"/>
@@ -51,13 +51,13 @@
                             </tr>
                             <tr>
                                 <td style="background-color:#f5ab99;border: 1px solid black">
-                                    <b>NUMERO DE CELULAR</b>
+                                    <b>numero de celular</b>
                                 </td>
                                 <td style="text-align:center;border: 1px solid black">
                                     <span t-field="o.partner_id.phone"/>
                                 </td>
                                 <td style="background-color:#f5ab99;border: 1px solid black">
-                                    <b>MONTO ASIGNADO DE DEPÓSITO</b>
+                                    <b>monto asignado de depósito</b>
                                 </td>
                                 <td style="text-align:center;border: 1px solid black">
                                     <span t-field="o.monto_deposito"/>
@@ -65,13 +65,13 @@
                             </tr>
                             <tr>
                                 <td style="background-color:#f5ab99;border: 1px solid black">
-                                    <b>FECHA DE ALQUILER</b>
+                                    <b>fecha de alquiler</b>
                                 </td>
                                 <td style="text-align:center;border: 1px solid black">
                                     <span t-field="o.date_order"/>
                                 </td>
                                 <td style="background-color:#f5ab99;border: 1px solid black">
-                                    <b>Instrucciones para toma de medidas</b>
+                                    <b>instrucciones para toma de medidas</b>
                                 </td>
                                 <td style="text-align:center;border: 1px solid black">
                                     <span t-field="o.fecha_ajuste_vestido1"/>
@@ -79,13 +79,13 @@
                             </tr>
                             <tr style="font-size:15px">
                                 <td style="background-color:#f5ab99;border: 1px solid black">
-                                    <b>FECHA DEL EVENTO</b>
+                                    <b>fecha del evento</b>
                                 </td>
                                 <td style="text-align:center;border: 1px solid black">
                                     <span t-field="o.fecha_evento"/>
                                 </td>
                                 <td style="background-color:#f5ab99;border: 1px solid black">
-                                    <b>Fecha de tallaje y modista</b>
+                                    <b>fecha de tallaje y modista</b>
                                 </td>
                                 <td style="text-align:center;border: 1px solid black">
                                     <span t-field="o.fecha_ajuste_vestido2"/>
@@ -93,13 +93,13 @@
                             </tr>
                             <tr style="font-size:15px">
                                 <td rowspan="3" style="vertical-align:middle;background-color:#f5ab99;border: 1px solid black">
-                                    <b>QUÉ AJUSTES NECESITA:</b>
+                                    <b>qué ajustes necesita:</b>
                                 </td>
                                 <td rowspan="3" style="text-align:center;border: 1px solid black">
                                     <span t-field="o.note"/>
                                 </td>
                                 <td style="background-color:#f5ab99;border: 1px solid black">
-                                    <b>Número de recibo de caja</b>
+                                    <b>número de recibo de caja</b>
                                 </td>
                                 <td style="text-align:center;border: 1px solid black">
                                     <span t-field="o.fecha_ajuste_vestido3"/>
@@ -107,7 +107,7 @@
                             </tr>
                             <tr style="font-size:15px">
                                 <td style="background-color:#f5ab99;border: 1px solid black">
-                                    <b>FECHA DE ENTREGA</b>
+                                    <b>fecha de entrega</b>
                                 </td>
                                 <td style="text-align:center;border: 1px solid black">
                                     <span t-field="o.fecha_entrega"/>
@@ -115,7 +115,7 @@
                             </tr>
                             <tr style="font-size:15px">
                                 <td style="background-color:#f5ab99;border: 1px solid black">
-                                    <b>FECHA DE DEVOLUCIÓN</b>
+                                    <b>fecha de devolución</b>
                                 </td>
                                 <td style="text-align:center;border: 1px solid black">
                                     <span t-field="o.fecha_devolucion"/>
@@ -124,13 +124,13 @@
 
                             <tr style="font-size:15px">
                                 <td style="background-color:#f5ab99;border: 1px solid black">
-                                    <b>ASESORA QUE ATENDIÓ</b>
+                                    <b>asesora que atendió</b>
                                 </td>
                                 <td style="text-align:center;border: 1px solid black">
                                    
                                 </td>
                                 <td style="background-color:#f5ab99;border: 1px solid black">
-                                    <b>DESCRIPCIÓN  DEL VESTIDO</b>
+                                    <b>descripción  del vestido</b>
                                 </td>
                                 <td style="text-align:center;border: 1px solid black">
                                     <span t-field="o.nombre_vestido"/>
@@ -139,36 +139,15 @@
 
                             <tr style="font-size:15px">
                                 <td colspan="2" style="text-align:center;background-color:#f5ab99;border: 1px solid black">
-                                    <b>CANTIDAD</b>
+                                    <b>cantidad</b>
                                 </td>
                                 <td style="text-align:center;background-color:#f5ab99;border: 1px solid black">
-                                    <b>DESCRIPCIÓN</b>
+                                    <b>descripción</b>
                                 </td>
                                 <td style="text-align:center;background-color:#f5ab99;border: 1px solid black">
-                                    <b>PRECIO DE ALQUILER</b>
+                                    <b>precio de alquiler</b>
                                 </td>
                             </tr>
-                            <!-- <t t-set="vestido1" t-value="{'nombre': False, 'precio':0}"/>
-                            <t t-set="vestido2"  t-value="{'nombre': False, 'precio':0}"/>
-                            <t t-set="vestido3"  t-value="{'nombre': False, 'precio':0}"/>
-                            <t t-set="fustan"  t-value="False"/>
-                            <t t-set="contador" t-vale="0"/> -->
-                            <!-- <t t-foreach="o.order_line" t-as="linea">
-                                <t t-if=" str(linea.product_id.name).find('Vestido') and contador == 0">
-                                    <t t-set="vestido1" t-value="{'nombre': linea.product_id.name, 'precio': linea.price_total}"/>
-                                </t>
-                                <t t-if=" 'Vestido' in linea.product_id.name and contador == 1">
-                                    <t t-set="vestido2" t-value="{'nombre': linea.product_id.name, 'precio': linea.price_total}"/>
-                                </t>
-                                <t t-if=" 'Vestido' in linea.product_id.name and contador == 2">
-                                    <t t-set="vestido3" t-value="{'nombre': linea.product_id.name, 'precio': linea.price_total}"/>
-                                </t>
-                                <t t-if=" 'Fustan' in linea.product_id.name and linea.price_unit == 0">
-                                    <t t-set="fustan" t-value="True"/>
-                                </t>
-                                <t t-set="contador" t-vale="contador + 1"/>
-                            </t> -->
-
                             <t t-foreach="o.order_line" t-as="linea">
                                 <tr style="font-size:15px">
                                     <td colspan="2" style="border: 1px solid black;;text-align:center">
@@ -184,7 +163,7 @@
                             </t>
                             <tr style="font-size:15px">
                                 <td style="border: 1px solid black">
-                                    <b>TOTAL</b>
+                                    <b>total</b>
                                 </td>
                                 <td colspan="2" style="border: 1px solid black">
                                 </td>
@@ -194,12 +173,12 @@
                             </tr>
                             <tr style="font-size:15px">
                                 <td colspan="4" style="background-color:#f5ab99;border: 1px solid black">
-                                    <b>OBSERVACIONES Y DETALLES ADICIONALES</b>
+                                    <b>observaciones y detalles adicionales</b>
                                 </td>
                             </tr>
                             <tr style="font-size:15px">
                                 <td style="border: 1px solid black; background-color:#f2ebea">
-                                    <b>MONTO Y FECHA DEL PAGO INICIAL</b>
+                                    <b>monto y fecha del pago inicial</b>
                                 </td>
                                 <td colspan="3" style="border: 1px solid black">
                                     <span t-field="o.primer_pago"/>
@@ -207,7 +186,7 @@
                             </tr>
                             <tr style="font-size:15px">
                                 <td style="border: 1px solid black;background-color:#f2ebea">
-                                    <b>MONTO Y FECHA DEL SEGUNDO PAGO</b>
+                                    <b>monto y fecha del segundo pago</b>
                                 </td>
                                 <td colspan="3" style="border: 1px solid black">
                                     <span t-field="o.segundo_pago"/>
@@ -215,18 +194,18 @@
                             </tr>
                             <tr style="font-size:15px">
                                 <td colspan="4" style="background-color:#f5ab99;border: 1px solid black">
-                                    <b>ESTIMADO CLIENTE, POR FAVOR LEER LAS CONDICIONES DEL CONTRATO EN LA PARTE DE ATRÁS DE ESTA HOJA</b>
+                                    <b>estimado cliente, por favor leer las condiciones del contrato en la parte de atrás de esta hoja</b>
                                 </td>
                             </tr>
                             <tr style="font-size:15px">
                                 <td colspan="4" style="text-align:center;background-color:#f5ab99;border: 1px solid black">
-                                    <b>NÚMEROS DE CUENTA</b>
+                                    <b>números de cuenta</b>
                                 </td>
                             </tr>
                             <tr style="font-size:15px">
                                 <td colspan="4" style="text-align:center;border: 1px solid black">
-                                    <b>CUENTA MONETARIA BAC: 90-252222-6          ACUERDO INTERCONTINENTAL S.A.</b><br/>
-                                    <b>CUENTA MONETARIA BANRURAL: 3183044181         ACUERDO INTERCONTINENTAL S.A.</b>
+                                    <b>cuenta monetaria bac: 90-252222-6          acuerdo intercontinental s.a.</b><br/>
+                                    <b>cuenta monetaria banrural: 3183044181         acuerdo intercontinental s.a.</b>
                                 </td>
                             </tr>
                         </table>
@@ -240,143 +219,111 @@
                         <table style="margin: 0px auto;border: 1px solid black;width:100%">
                             <tr style="font-size:10px">
                                 <td colspan="3" style="border: 1px solid black;background-color:#f5ab99; text-align:center">
-                                    <b>POLITICAS DE ALQUILER- LOVE STORY OCCASIONS VESTIDOS DE GUATEMALA</b>
+                                    <b>politicas de alquiler- love story occasions vestidos de guatemala</b>
                                 </td>
                             </tr>
                             <tr style="font-size:10px">
                                 <td colspan="3" style="border: 1px solid black;">
                                     <b>
-                                        ESTIMADA CLIENTE:<br/>
-                                        GRACIAS POR CONTRATAR NUESTROS SERVICIOS, CON EL AFÁN DE SERVIRLE DE LA MEJOR MANERA, HEMOS ESPECIFICADO EN EL SIGUIENTE DOCUMENTO LAS CONDICIONES DE NUESTRO SERVICIO DE ALQUILER O COMPRA DE NUESTROS VESTIDOS, POR FAVOR LEER DETALLADAMENTE CADA INCISO Y CUALQUIER DUDA QUE TENGAS, ESTAMOS PARA SERVIRTE.
-
+                                        estimada cliente:<br/>
+                                        gracias por contratar nuestros servicios, con el afán de servirle de la mejor manera, hemos especificado en el siguiente documento las condiciones de nuestro servicio de alquiler o compra de nuestros vestidos, por favor leer detalladamente cada inciso y cualquier duda que tengas, estamos para servirte.
                                     </b>
                                 </td>
                             </tr>
                             <tr style="font-size:10px">
                                 <td colspan="3" style="border: 1px solid black;background-color:#f5ab99">
-                                    <b>CONDICIONES Y TÉRMINOS DE ALQUILER DE VESTIDOS</b>
+                                    <b>condiciones y términos de alquiler de vestidos</b>
                                 </td>
                             </tr>
                             <tr style="font-size:10px">
                                 <td colspan="3" style="border: 1px solid black;background-color:#f2ebea">
                                     <b>
-                                        1.- NO SE REALIZARÁ LA DEVOLUCIÓN DE RESERVAS POR COMPRA Y/O ALQUILER, UNICAMENTE CAMBIO POR OTRO VESTIDO EN RENTA DISPONIBLE, TOMAR EN CUENTA QUE TU RESERVA NO SE DEVOLVERÁ EN EFECTIVO EN CASO YA NO QUIERES ALQUILAR O COMPRAR
+                                        1.- no se realizará la devolución de reservas por compra y/o alquiler, unicamente cambio por otro vestido en renta disponible, tomar en cuenta que tu reserva no se devolverá en efectivo en caso ya no quieres alquilar o comprar
                                     </b>
                                 </td>
                             </tr>
                             <tr style="font-size:10px">
                                 <td colspan="3" style="border: 1px solid black;background-color:#f2ebea">
                                     <b>
-                                        2.- EL VESTIDO EN TU VISITA ORIGINAL PUEDE CAMBIARSE DESPUÉS DE FIRMADO EL CONTRATO SI DESEAS, SIN EMBARGO TIENE UN RECARGO DE Q700 EL VESTIDO DE 15 AÑOS Y Q300 EL VESTIDO DE FIESTA, ADICIONAL A LA DIFERENCIA DE PRECIO DEL NUEVO VESTIDO (SI EXISTIERA): EL CAMBIO ESTÁ SUJETO A DISPONIBILIDAD Y DEBERÁ REALIZAR EL PAGO DE Q700 EL MISMO DÍA DEL CAMBIO PARA QUE SEA EFECTIVO 
+                                        2.- el vestido en tu visita original puede cambiarse después de firmado el contrato si deseas, sin embargo tiene un recargo de q700 el vestido de 15 años y q300 el vestido de fiesta, adicional a la diferencia de precio del nuevo vestido (si existiera): el cambio está sujeto a disponibilidad y deberá realizar el pago de q700 el mismo día del cambio para que sea efectivo 
                                     </b>
                                 </td>
                             </tr>
                             <tr style="font-size:10px">
                                 <td colspan="3" style="border: 1px solid black;background-color:#f2ebea">
                                     <b>
-                                        3.- EL VESTIDO EN TU VISITA ORIGINAL PUEDE CAMBIARSE DESPUÉS DE FIRMADO EL CONTRATO SI DESEAS, SIN EMBARGO TIENE UN RECARGO DE Q700 EL VESTIDO DE 15 AÑOS Y Q300 EL VESTIDO DE FIESTA, ADICIONAL A LA DIFERENCIA DE PRECIO DEL NUEVO VESTIDO (SI EXISTIERA): EL CAMBIO ESTÁ SUJETO A DISPONIBILIDAD Y DEBERÁ REALIZAR EL PAGO DE Q700 EL MISMO DÍA DEL CAMBIO PARA QUE SEA EFECTIVO 
+                                        3.- el vestido en tu visita original puede cambiarse después de firmado el contrato si deseas, sin embargo tiene un recargo de q700 el vestido de 15 años y q300 el vestido de fiesta, adicional a la diferencia de precio del nuevo vestido (si existiera): el cambio está sujeto a disponibilidad y deberá realizar el pago de q700 el mismo día del cambio para que sea efectivo 
                                     </b>
                                 </td>
                             </tr>
                             <tr style="font-size:10px">
                                 <td colspan="3" style="border: 1px solid black;">
-
-                                        4.- LA ENTREGA DEL VESTIDO ES PERSONAL YA QUE HAY QUE TALLARSE EL MISMO, DE LO CONTRARIO NO PODEMOS REALIZAR LA ENTREGA,
-
+                                        4.- la entrega del vestido es personal ya que hay que tallarse el mismo, de lo contrario no podemos realizar la entrega,
                                 </td>
                             </tr>
                             <tr style="font-size:10px">
                                 <td colspan="3" style="border: 1px solid black;">
-
-                                        5.- DEBES DE TOMAR EN CUENTA QUE EL VESTIDO ADQUIRIDO PUEDE HABER SIDO USADO ANTES O PODRÁ USARSE DESPUÉS DE RENTADO.
-
-
+                                        5.- debes de tomar en cuenta que el vestido adquirido puede haber sido usado antes o podrá usarse después de rentado.
                                 </td>
                             </tr>
                             <tr style="font-size:10px">
                                 <td colspan="3" style="border: 1px solid black;background-color:#f2ebea">
                                     <b>
-                                        6.- DEBERÁS CUMPLIR PUNTUALMENTE CON TU SEGUNDO PAGO PARA NO PERDER LA RESERVA, LA FECHA LÍMITE ES EL DIA DE TOMAS DE MEDIDA.
-
+                                        6.- deberás cumplir puntualmente con tu segundo pago para no perder la reserva, la fecha límite es el dia de tomas de medida.
                                     </b>
                                 </td>
                             </tr>
                             <tr style="font-size:10px">
                                 <td colspan="3" style="border: 1px solid black;">
-
-                                        7.- EN CASO UNA O VARIAS PRENDAS SUFRIERAN DAÑOS COMO: MANCHA GRAVE, ROTURA, RASGADURA, DESGASTADO O VINIERA INCOMPLETAS, ME COMPROMETO  A PAGAR EL VALOR TOTAL DE LA O LAS PRENDAS DAÑADAS A LOVE STORY OCCASIONS.
-
-
+                                        7.- en caso una o varias prendas sufrieran daños como: mancha grave, rotura, rasgadura, desgastado o viniera incompletas, me comprometo  a pagar el valor total de la o las prendas dañadas a love story occasions.
                                 </td>
                             </tr>
                             <tr style="font-size:10px">
                                 <td colspan="3" style="border: 1px solid black;">
-
-                                        8.- ME COMPROMETO A ENTREGAR EL PRIMER LUNES (ANTES DE LAS 13:00 HRS) DESPUÉS DEL EVENTO, VESTIDO Y FUSTAN Y/O DEMÁS PRENDAS ALQUILADAS, DE LO CONTRARIO, SE COBRARÁ Q150 POR CADA DÍA ADICIONAL
-
-
+                                        8.- me comprometo a entregar el primer lunes (antes de las 13:00 hrs) después del evento, vestido y fustan y/o demás prendas alquiladas, de lo contrario, se cobrará q150 por cada día adicional
                                 </td>
                             </tr>
                             <tr style="font-size:10px">
                                 <td colspan="3" style="border: 1px solid black;">
-
-                                        9.- EL ALQUILER DE LOS VESTIDOS INCLUYE AJUSTES MENORES DE COSTURA, EJEMPLO: RUEDO, BOTÓN DE COLA, REDUCIR MANGAS, REDUCIR LATERALES. SI DESEAS OTRO AJUSTE ADICIONAL A LOS MENCIONADOS, DEBERÁS PAGARLO ADICIONAL.
-
-
+                                        9.- el alquiler de los vestidos incluye ajustes menores de costura, ejemplo: ruedo, botón de cola, reducir mangas, reducir laterales. si deseas otro ajuste adicional a los mencionados, deberás pagarlo adicional.
                                 </td>
                             </tr>
                             <tr style="font-size:10px">
                                 <td colspan="3" style="border: 1px solid black;background-color:#f2ebea">
                                     <b>
-                                        10.- EL VESTIDO DE 15 AÑOS EN RENTA INCLUYE: FUSTAN, AJUSTES DE COSTURA, LAVANDERÍA, PLANCHADO Y TIARA DE REGALO, TOMAR EN CUENTA QUE LOS ACCESORIOS ESTÁN SUJETOS A DISPONIBILIDAD Y PODRÍAN CAMBIAR EN CASO DE CAMBIO DE FECHA O DAÑO PERMANENTE, SE INFORMARÁ EN TALLAJE.
-
+                                        10.- el vestido de 15 años en renta incluye: fustan, ajustes de costura, lavandería, planchado y tiara de regalo, tomar en cuenta que los accesorios están sujetos a disponibilidad y podrían cambiar en caso de cambio de fecha o daño permanente, se informará en tallaje.
                                     </b>
                                 </td>
                             </tr>
                             <tr style="font-size:10px">
                                 <td colspan="3" style="border: 1px solid black;">
-
-                                        11.- TOMA EN CUENTA QUE NO ES POSIBLE REALIZAR ALTERACIONES DE COSTURA QUE MODIFIQUEN DEFINITIVAMENTE EL VESTIDO (EJM: CORTAR EL RUEDO, O MANGAS, ELIMINAR COLA, QUITAR APLICACIONES DE ENCAJE, ETC.) POR LO QUE DEBERÁS ELEGIR UN MODELO QUE CUMPLA CON TUS REQUERIMIENTOS EN EL ESTADO ACTUAL.
-
-
+                                        11.- toma en cuenta que no es posible realizar alteraciones de costura que modifiquen definitivamente el vestido (ejm: cortar el ruedo, o mangas, eliminar cola, quitar aplicaciones de encaje, etc.) por lo que deberás elegir un modelo que cumpla con tus requerimientos en el estado actual.
                                 </td>
                             </tr>
                             <tr style="font-size:10px">
                                 <td colspan="3" style="border: 1px solid black;">
-
-                                        12.- LOS TALLAJES PARA TOMA DE MEDIDAS SE REALIZARÁ EXCLUSIVAMENTE DE LUNES A VIERNES  EN EL HORARIO ADECUADO POR AMBAS PARTES. RECUERDA SIEMPRE AGENDAR CITA ANTES DE TU LLEGADA PARA QUE EL VESTIDO ENTADO SE ENCUENTRE DISPONIBLE EN LA TIENDA. DEBERÁS  TRAER LOS ZAPATOS QUE USARÁS EN TU EVENTO (YA QUE NO PODRÁS CAMBIARLOS POSTERIORMENTE) PARA TOMA CORRECTAMENTE TU MEDIDA DE RUEDO, SI NO TE PRESENTAS CON DICHO CALZADO NO PODREMOS TOMAR MEDIDAS Y DEBERAS AGENDAR TU CITA DE NUEVO.
-
-
+                                        12.- los tallajes para toma de medidas se realizará exclusivamente de lunes a viernes  en el horario adecuado por ambas partes. recuerda siempre agendar cita antes de tu llegada para que el vestido entado se encuentre disponible en la tienda. deberás  traer los zapatos que usarás en tu evento (ya que no podrás cambiarlos posteriormente) para toma correctamente tu medida de ruedo, si no te presentas con dicho calzado no podremos tomar medidas y deberas agendar tu cita de nuevo.
                                 </td>
                             </tr>
                             <tr style="font-size:10px">
                                 <td colspan="3" style="border: 1px solid black;">
-
-                                        13.- DERIVADO DE LA SITUACIÓN POR LA PANDEMIA COVID-19 EN CASO TU EVENTO SE MODIFIQUE DE FECHA, TU CONTRATO PUEDE QUEDAR ABIERTO HASTA QUE NOS INDIQUES LA PRÓXIMA FECHA, RECUERDA QUE SI EL EVENTO SE CANCELA, NO DEVOLVEMOS EL DINERO ADELANTADO, ÚNICAMENTE PODRÁS CANJEARLO POR OTRO VESTIDO EN RENTA.
-
-
+                                        13.- derivado de la situación por la pandemia covid-19 en caso tu evento se modifique de fecha, tu contrato puede quedar abierto hasta que nos indiques la próxima fecha, recuerda que si el evento se cancela, no devolvemos el dinero adelantado, únicamente podrás canjearlo por otro vestido en renta.
                                 </td>
                             </tr>
                             <tr style="font-size:10px">
                                 <td colspan="3" style="border: 1px solid black;">
-
-                                        14.- EL PRESENTE CONTRATO DE SERVICIOS TIENE VALIDEZ POR 12 MESES.
-
-
+                                        14.- el presente contrato de servicios tiene validez por 12 meses.
                                 </td>
                             </tr>
                             <tr style="font-size:10px">
                                 <td colspan="3" style="border: 1px solid black;">
-
-                                        15.- LOS ARTÍCULOS ADQUIRIDOS EN VENTA NUEVIS,  EN LIQUIDACIÓN U OFERTA NO TIENEN DEVOLUCIÓN NI CAMBIO.
-
-
+                                        15.- los artículos adquiridos en venta nuevos,  en liquidación u oferta no tienen devolución ni cambio.
                                 </td>
                             </tr>
                             <tr style="font-size:10px">
                                 <td colspan="3" style="border: 1px solid black;">
                                     <b>
-                                        YO  _________________________________ E LEÍDO A DETALLE EL SIGUIENTE CONTRATO DE VESTIDO Y ME COMPROMETO A CUMPLIR CON LAS ESPECIFICACIONES EN EL INDICADAS 
+                                        yo  _________________________________ e leído a detalle el siguiente contrato de vestido y me comprometo a cumplir con las especificaciones en el indicadas 
                                     </b>
                                 </td>
                             </tr>
@@ -396,16 +343,16 @@
                             </tr>
                             <tr style="font-size:14px">
                                 <td colspan="2" style="border: 1px solid black;background-color:#f5ab99;text-align:center">
-                                   FIRMA CLIENTE 
+                                   firma cliente 
                                 </td>
                                 <td colspan="1" style="border: 1px solid black;background-color:#f5ab99;text-align:center">
-                                        NUMERO DE DPI O PASAPORTE
+                                        numero de dpi o pasaporte
                                 </td>
                             </tr>
                             <tr style="font-size:14px">
                                 <td colspan="3" style="text-align:center;border: 1px solid black">
-                                    <b>Cuenta Monetaria BAC: 90-252222-6          Acuerdo Intercontinental S.A.</b><br/>
-                                    <b>Cuenta Monetaria BANRURAL: 3183044181          Acuerdo Intercontinental S.A.</b>
+                                    <b>cuenta monetaria bac: 90-252222-6          acuerdo intercontinental s.a.</b><br/>
+                                    <b>cuenta monetaria banrural: 3183044181          acuerdo intercontinental s.a.</b>
                                 </td>
                             </tr>
                         </table>
